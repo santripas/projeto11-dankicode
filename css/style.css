@@ -1,0 +1,74 @@
+body{
+    background: rgb(225, 225, 225);
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    margin-top: 10px;
+}
+
+.logo{float: left;}
+
+.logo img{max-width: 100%;}
+
+.menu{float: right; margin-top: 20px;}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin: 0 15px;
+}
+
+.menu a.btn-cta{
+    background: #30851d;
+    color: white;
+    font-size: 16px;
+    padding: 8px 25px;
+}
+
+section.topo{
+    background: white;
+    padding: 30px 0;
+}
+
+.texto-topo{
+    margin-top: 20px;
+    float: left;
+    width: 50%;
+    color: #11223f;
+    padding: 0 20px;
+}
+
+.texto-topo h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.texto-topo p{
+    font-size: 20px;
+}
+
+.img-topo{
+    float: left;
+    width: 50%;
+}
+
+.img-topo img{max-width: 100%;}
+
+@media screen and (max-width:768px) {
+    .texto-topo,
+    .img-topo{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
