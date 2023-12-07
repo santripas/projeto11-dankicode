@@ -65,6 +65,23 @@ section.topo{
 
 .img-topo img{max-width: 100%;}
 
+/* Depoimentos*/
+
+section.depoimentos{
+    padding: 30px 0;
+}
+
+.depoimento-single{
+    background-color: white;
+    background-image: url();
+    background-size: 66px 53px;
+    background-position: right top;
+    margin-bottom: 10px;
+    
+}
+
+
+
 @media screen and (max-width:768px) {
     .texto-topo,
     .img-topo{
